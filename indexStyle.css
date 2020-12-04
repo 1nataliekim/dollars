@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+}
+h1 {
+  color: navy;
+}
+p {
+  font-size: inherit;
+}
+input {
+  border: none;
+  border-bottom: 2px solid #d9003e;
+  color: navy;
+  font-family: inherit;
+  font-size: inherit;
+  height: 20px;
+  margin: 0px 4px;
+  padding: 0px 2px;
+  width: 150px;
+}
+#btn_go {
+  background-color: #d9003e;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  height: 35px;
+  transition-duration: 0.4s;
+  width: 90px;
+}
+#btn_go:hover {
+  background-color: #ff0049;
+  font-weight: bold;
+}
+button:active, #btn_go:active {
+  background-color: white;
+}
+
+.top_wrapper {
+  padding: 100px 0px;
+  font-size: 12pt;
+}
+.user_input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
